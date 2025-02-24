@@ -1,4 +1,4 @@
-**Due: By Lecture 14, midnight**
+**Due: By Lecture 15, midnight**
  
 *Note: Homework Assignment 3 should be completed individually.*
 
