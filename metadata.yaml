@@ -8,6 +8,7 @@ subtitle: |
 geometry: margin=2cm
 header-includes: |
   \setlength{\headsep}{1cm}
+  \usepackage{hyperref}
   \hypersetup{colorlinks=true,
     urlcolor=[RGB]{6,69,173},
     linkcolor=[RGB]{6,69,173}}
