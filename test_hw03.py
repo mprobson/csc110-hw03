@@ -160,7 +160,7 @@ def test_3_2_pick_visualization_good_pick_a1(capsys, monkeypatch):
 
 def test_3_3_pick_visualization_good_pick_a2(capsys, monkeypatch):
     # Create a list of input values
-    user_inputs = iter(["1"])
+    user_inputs = iter(["2"])
     try:
         with monkeypatch.context() as m:
             m.setattr('builtins.input', lambda _: next(user_inputs))
