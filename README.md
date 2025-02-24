@@ -43,15 +43,15 @@ Any tests are very strict with respect to the format of requested prompts and pr
 
 ## The global variable `grades`
 
-The list variable `grades` is declred at the top and outside any function. This makes it a member of the **global context** and visible to all functions.
+The list variable `grades` is declared at the top and outside any function. This makes it a member of the **global context** and visible to all functions.
 
   * This variable is initialized with 5 zeros inside.
-  * If you modify this list while inside any function, the global variable will be modified. However, you *need* to tell pythn that you intend to use the `global grades` so make sure you put that at the top of the function.
+  * If you modify this list while inside any function, the global variable will be modified. However, you *need* to tell Python that you intend to use the `global grades` so make sure you put that at the top of the function.
   * You can overwrite a value at some index `idx` with the number `num` by using the command:
     ```
     grades[idx] = num
     ```
-  * remember that the only valid indices that you can use for the variable `grades` are 0 through 4 (because we only havea total of 5).
+  * remember that the only valid indices that you can use for the variable `grades` are 0 through 4 (because we only have a total of 5).
 
 ## Task 1: read_five_ints
 
@@ -69,7 +69,7 @@ in_str.isdigit()
 
 The steps to complete the function are detailed below:
 
-  1. Remove the `pass` keyword indside the provided for loop and fill it out with your code.
+  1. Remove the `pass` keyword inside the provided for loop and fill it out with your code.
   2. You should use the `input` function to read one number using the following prompt: `"Give me the next grade in [0 to 10]:"`; Note that whatever is read is a String.
   3. Check to see if the input is only digits. If it is not, print an error message with: `"Error in read_five_ints: input string is not for an integer"` and follow that with the statement `exit()`.
   4. If the string has only digits, cast the input string into an integer by using the `int` function.
