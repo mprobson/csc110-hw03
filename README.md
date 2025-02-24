@@ -1,23 +1,3 @@
----
-title: |
-  \vspace{-2cm} CSC 110\
-  Introduction to Computer Science
-subtitle: |
-  **Homework Assignment 3**\
-  Conditionals
-geometry: margin=2cm 
-header-includes: |
-  \setlength{\headsep}{1cm}
-  \hypersetup{colorlinks=true,
-    urlcolor=[RGB]{6,69,173},
-    linkcolor=[RGB]{6,69,173}}  
-  \usepackage{color}  
-output:
-  pdf_document:
-    highlight-style: monochrome
----
-\vspace{-5\baselineskip}
-
 **Due: By Lecture 14, midnight**
  
 *Note: Homework Assignment 3 should be completed individually.*
